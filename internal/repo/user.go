@@ -94,6 +94,6 @@ func (ur userRepo) UpdateUser(id int64, user *domain.User) error {
 		user.UserName, key, user.Password, key,
 		user.Email, key, user.Mobile, key, id,
 	)
-	ur.db.Save(user)
+	
 	return nil
 }
