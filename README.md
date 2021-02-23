@@ -5,7 +5,7 @@
 
 思路：将AES加密后的二进制数据转为16进制存储，解密时将数据转回去后AES解密。
 
-- 加解密代码实现路径：[gorm-v2-example/internal/repo/user.go](https://github.com/Albert-Zuo/gorm-v2-example/blob/164f3a40a60e95f97344512025d82e395c33c5e6/internal/repo/user.go)
+- 加解密代码实现路径：[gorm-v2-example/internal/repo/user.go](https://github.com/Albert-Zuo/gorm-v2-example/blob/e451cb80ecab1e3958f4d33ce2937549d6c6bcdc/internal/repo/user.go)
 - 测试代码路径：[gorm-v2-example/test/user_test.go](https://github.com/Albert-Zuo/gorm-v2-example/blob/164f3a40a60e95f97344512025d82e395c33c5e6/test/user_test.go#L20)
 - SQL File：[blog_user.sql](https://github.com/Albert-Zuo/gorm-v2-example/blob/c6405336990bec0084fe3651aeaed56faa8c0397/blog_user.sql)
 
@@ -99,3 +99,5 @@ FROM table_name
 
 - 添加100个User对象耗时7s
 - 查询100个User对象耗时0.01s
+
+有问题请联系：xiaozuo1221@gmail.com 或者 617899358@qq.com
