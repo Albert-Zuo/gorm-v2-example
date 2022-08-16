@@ -100,4 +100,4 @@ FROM table_name
 - 添加100个User对象耗时7s
 - 查询100个User对象耗时0.01s
 
-有问题请联系：xiaozuo1221@gmail.com 或者 617899358@qq.com
+有问题请联系：xiaozuo1221@gmail.com
